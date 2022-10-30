@@ -1,0 +1,55 @@
+body{
+    background-color: #E45C54;
+}
+
+h1{
+    color: #86553F;
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+
+h1:hover, p:hover{
+    color:#EAE8E8;
+}
+
+p{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    color: #E45C54;
+    text-shadow: 1px 1px black;
+}
+
+#order-form{
+    background-color: #DBB545;
+}
+
+fieldset {
+    background-color: #90A375;
+    border: 3px solid #EAE8E8;
+    color: #EAE8E8;
+    text-shadow: 1px 1px #E45C54
+}
+
+strong{
+    font-size: larger;
+    font-weight: bold;
+    color: #86553F;
+    text-shadow: 1px 1px black
+}
+
+legend{
+    font-size: larger;
+    font-weight: bold;
+    color: #EAE8E8;
+    text-shadow: 1px 1px black;
+}
+
+input{
+    font-weight: bold;
+    background-color: wheat;
+    color: #86553F;
+    border: 3px solid #E45C54;
+    text-shadow: 1px 1px black
+}
