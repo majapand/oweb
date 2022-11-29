@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="proektna.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src = "javascript.js"></script>
+
+<title>Proektna zadacha</title>
+
+</head>
+<body id="body22" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("h3").on({
+    mouseenter: function(){
+      $(this).css("background-color", "#BA9FE7");
+    },  
+    mouseleave: function(){
+      $(this).css("background-color", "transparent");
+    }, 
+    click: function(){
+      $(this).css("background-color", "#E14658");
+    }  
+  });
+});
+</script>
+<script>
+  $(document).ready(function(){
+    $("button").click(function(){
+      $("#slide").css("color", "#3F3250")
+        .slideUp(2000)
+        .slideDown(2000);
+    });
+  });
+  </script>
+
+  <p class="special">Maja Pandiloska</p>
+
+    <div class="navbar">
+        <a href="Contact.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">For You
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="anketa.html">Survey</a>
+            <a href="Quiz.html">Quiz</a>
+          </div>
+        </div>
+        <a href="BlogFinal1.html">Blog</a>
+        <a href="Galerija.html">Gallery</a>
+        <div class="dropdown">
+          <button class="dropbtn">Favourite
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Movies.html">Movies, TV shows, Music</a>
+            <a href="Food.html">Food</a>
+          </div>
+        </div>
+        <a href="Home.html">Home</a>
+      </div>
+
+      <div class="header">
+        <h3> Здраво, добредојдовте на мојата веб страна, се надевам дека ќе Ви се допадне!</h3>
+      </div>     
+
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>About me</h2>
+            <img src="me.png" id="pic" alt="slika od mene" style="height: 10%; width: 10%;">
+            <p>Здраво, јас сум Маја Пандилоска. Родена сум на <em>05.10.2000</em> година во Гостивар, Македонија.
+                Средно образование завршив во СОУ "Гостивар" - Гостивар. Моментално сум на студии на Факултетот за електротехника и информациски технологии.
+                Јас сум студент на насоката ТКИИ.
+            </p>
+              
+            
+          </div>
+         
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h2>Hobby</h2>
+            <p id="slide">Во слободно време посетувам Зумба танци, пешачам, слушам музика, гледам серии. Дополнително сакам да возам велосипед, патувам и одам на шопинг.</p>
+            <button>Кликни тука</button>
+          </div>          
+        </div>
+      </div>
+
+      <div class="icons">
+        <a href="https://www.facebook.com/maja.pandiloska/"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/majapandiloska/"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/pm9_pm10"><i class="fa fa-twitter"></i></a>
+        <a href="https://github.com/majapand/oweb"><i class="fa fa-github"></i></a>
+    </div>
+
+</body>
+</html>
+ 

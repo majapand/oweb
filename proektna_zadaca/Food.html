@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="proektna.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $("li").filter(".intro").css("background-color", "pink");
+  });
+  </script>
+
+<script>
+  $(document).ready(function(){
+    $("#myInput").on("keyup", function() {
+      var value = $(this).val().toLowerCase();
+      $("#myList li").filter(function() {
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+    });
+  });
+  </script>
+
+<title>Proektna zadacha</title>
+</head>
+<body id="bodyf">
+  <p class="special">Maja Pandiloska</p>
+
+    <div class="navbar">
+        <a href="Contact.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">For You
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="anketa.html">Survey</a>
+            <a href="Quiz.html">Quiz</a>
+          </div>
+        </div>
+        <a href="BlogFinal1.html">Blog</a>
+        <a href="Galerija.html">Gallery</a>
+        <div class="dropdown">
+          <button class="dropbtn">Favourite
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Movies.html">Movies, TV shows, Music</a>
+            <a href="Food.html">Food</a>
+          </div>
+        </div>
+        <a href="Home.html">Home</a>
+      </div>
+    </div>
+
+    <h1>Омилена храна</h1>
+
+    <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Цезар салата</h2>
+            <img src="cezar.jpg" alt="cezar salata" style="height: 50%; width: 50%;">
+            <p><strong>ПРИПРЕМА:</strong>
+              <ul>
+                <li>Марулата се мие, се сече и се реди во длабок сад за салата. Пилешкото се сече на тенки ленти како пилешки прсти и се пропржува на загреана тава со малку масло. На страна се мати една голема лажица грчки јогурт, балсамик и 1 лажица маслиново масло, се полива врз салатата и се меша, а на крај се додава и малку пармезан. 
+                </li>
+              </ul></p>
+            <script> 
+              $(document).ready(function(){
+                $("#flip").click(function(){
+                  $("#panel").slideToggle("slow");
+                });
+              });
+              </script>
+              <style> 
+              #panel, #flip {
+                padding: 5px;
+                text-align: center;
+                background-color: #e5eecc;
+                border: solid 1px #c3c3c3;
+              }
+              
+              #panel {
+                padding: 50px;
+                display: none;
+              }
+              </style>
+               <p><strong>СОСТОЈКИ: </strong></p>
+              <div id="flip">Кликни тука за да видиш повеќе</div>
+              <div id="panel">
+              <li>марула</li>
+              <li>250 гр пилешко, исечен на тенки ленти</li>
+              <li>пармезан, за врз дресингот и за вкус</li>
+              <p><strong>За дресинг: </strong></p>
+              <li>1 голема лажица грчки јогут</li>
+              <li>2 големи лажици балсамик</li>
+              <li>1 голема лажица маслиново масло</li>
+              </div>
+            </div>
+</div>
+      </div>
+
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Чоколадна каша со просо</h2>
+            <img src="kasha.jpg" alt="choko kasha" style="height: 50%; width: 50%;">
+
+            <p><strong>ПРИПРЕМА: </strong></p>
+              <ul>
+                <li>Млекото се става да се загрее и се додава просото да се свари, ако има потреба додади и малку водичка, па го додаваш какаото и мешаш. Откако ќе се свари чоколадното просо го додаваш во длабок сад заедно со медот и мешаш. Додека е така топол оброкот го рендаш или кршиш црното чоколадо да се стопи заедно со замрзнатото овошје.
+
+                </li></ul>
+                
+                <details>
+              <summary>СОСТОЈКИ:</summary> 
+                <li class="intro" >4 големи лажици просо</li>
+                  <li class="intro">250 гр растително млеко</li>
+                  <li class="intro">1 дозерка протеин</li>
+                  <li class="intro">2 мали лажички какао, само ако протеинот не е чоколаден</li>
+                  <li class="intro">2 коцки црно чоколадо</li>
+                  <li class="intro">џем од малини, нашиот рецепт или замрзнато овошје</li>
+              </p>
+            </details>
+
+          </div>
+         
+        </div>
+      </div>
+     
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Чоко палачинки со малини</h2>
+            <img src="pancakes.jpg" alt="choko palachinki" style="height: 50%; width: 50%;">
+            <p><strong>ПРИПРЕМА:</strong> 
+            <ul>
+              <li>
+                Сите состојки се ставаат во чаша и се блендираат се додека не се добие еднолична смеса. Внимавај да не ставиш премногу вода затоа што треба да добиеш густа смеса како за американски палачинки. На загреана тава мачкаш масло со четка колку да не се залепат, ги пропржуваш од двете страни, ги редиш во чинија, ги декорираш со протеинско кремче и додаваш свежи малини. Одлични се за сладок завршеток на денот. На здравје!  
+              </li>
+            </ul></p>
+            
+        
+              <p><strong>СОСТОЈКИ:</strong></p>
+              <p>Внеси нешто во полето за внесување за да пребарувате во листата за состојки:</p>
+              <input id="myInput" type="text" placeholder="Search..">
+              <br>
+              <ul id="myList">
+                  <li>4 големи лажици просо</li>
+                  <li>250 гр растително млеко</li>
+                  <li>2 мали лажички какао, само ако протеинот не е чоколаден</li>
+                  <li>2 коцки црно чоколадо</li>
+                  <li>џем од малини, нашиот рецепт или замрзнато овошје</li>
+                </ul>
+           
+            </div>
+          </div>
+      </div>
+      
+
+    </form>
+    <div class="icons">
+      <a href="https://www.facebook.com/maja.pandiloska/"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/majapandiloska/"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/pm9_pm10"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/majapand/oweb"><i class="fa fa-github"></i></a>
+    </div>
+    
+</body>
+</html>

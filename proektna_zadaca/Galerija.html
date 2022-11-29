@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="proektna.css">
+        <script src="javascript.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <title>Proektna zadacha</title>
+    </head>
+
+    <body>
+        <p class="special">Maja Pandiloska</p>
+
+    <div class="navbar">
+        <a href="Contact.html">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">For You
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="anketa.html">Survey</a>
+            <a href="Quiz.html">Quiz</a>
+          </div>
+        </div>
+        <a href="BlogFinal1.html">Blog</a>
+        <a href="Galerija.html">Gallery</a>
+        <div class="dropdown">
+          <button class="dropbtn">Favourite
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Movies.html">Movies, TV shows, Music</a>
+            <a href="Food.html">Food</a>
+          </div>
+        </div>
+        <a href="Home.html">Home</a>
+      </div>
+
+      
+    <h1>CoffeGram</h1>
+
+ 
+         
+    <div class="box">
+        <div class ="frame">
+        <img class = "pic" src = "c1.jpg" alt = "pic1">
+        <div class="desc">
+            <button id="1" onclick="count_funk1(this.id)">
+                <div id="count_l1" style="display: inline-block;">
+                    <script>document.getElementById("count_l1").innerHTML = getSavedValue("count_l1");</script>
+                </div> <input type="image" src="like.png" alt="Like" title="Like" width="20" height="20"></input>
+            </button>
+            <button id="101" onclick="add_funk1(this.id)" type="button">
+                <div id="show_c1" style="display: inline-block;">
+                    <script>document.getElementById("show_c1").innerHTML = getSavedValue("show_c1");</script>
+                </div> <input type="image" src="com.png" alt="comment"width="20" height="20">
+            </button>
+            <div id="show_com1" class="commentsBox">
+                <script>document.getElementById("show_com1").innerHTML = getSavedValueComments("show_com1");</script>
+            </div>
+        </div>
+        </div>
+       <p><br></p>
+        <div class = "frame" >
+    
+    
+        <img class = "pic" src = "c2.jpg" alt = "pic2">
+        <div class="desc">
+            <button id="2" onclick="count_funk1(this.id)">
+                <div id="count_l2" style="display: inline-block;">
+                    <script>document.getElementById("count_l2").innerHTML = getSavedValue("count_l2");</script>
+                </div> <input type="image" src="like.png" alt="Like" title="Like" width="20" height="20"></input>
+            </button>
+            <button id="102" onclick="add_funk1(this.id)" type="button">
+                <div id="show_c2" style="display: inline-block;">
+                    <script>document.getElementById("show_c2").innerHTML = getSavedValue("show_c2");</script>
+                </div> <input type="image" src="com.png" alt="comment"width="20" height="20">
+            </button>
+            <div id="show_com2" class="commentsBox">
+                <script>document.getElementById("show_com2").innerHTML = getSavedValueComments("show_com2");</script>
+            </div>
+        </div>
+        </div>
+   
+<br><p></p>
+        <div class ="frame">
+        <img class = "pic" src = "c3.jpg" alt = "pic4">
+        <div class="desc">
+            <button id="3" onclick="count_funk1(this.id)">
+                <div id="count_l3" style="display: inline-block;">
+                    <script>document.getElementById("count_l3").innerHTML = getSavedValue("count_l3");</script>
+                </div> <input type="image" src="like.png" alt="Like" title="Like" width="20" height="20">
+            </button>
+            <button id="103" onclick="add_funk1(this.id)" type="button">
+                <div id="show_c3" style="display: inline-block;">
+                    <script>document.getElementById("show_c3").innerHTML = getSavedValue("show_c3");</script>
+                </div> <input type="image" src="com.png" alt="comment"width="20" height="20">
+            </button>
+            <div id="show_com3" class="commentsBox">
+                <script>document.getElementById("show_com3").innerHTML = getSavedValueComments("show_com3");</script>
+            </div>
+        </div>
+        
+        </div> 
+<p><br></p>
+        <div class = "frame">  
+    <img class = "pic" src = "c4.jpg" alt = "pic4">
+    <div class="desc">
+        <button id="4" onclick="count_funk1(this.id)">
+            <div id="count_l4" style="display: inline-block;">
+                <script>document.getElementById("count_l4").innerHTML = getSavedValue("count_l4");</script>
+            </div> <input type="image" src="like.png" alt="Like" title="Like" width="20" height="20"></input>
+        </button>
+        <button id="104" onclick="add_funk1(this.id)" type="button">
+            <div id="show_c4" style="display: inline-block;">
+                <script>document.getElementById("show_c4").innerHTML = getSavedValue("show_c4");</script>
+            </div> <input type="image" src="com.png" alt="comment"width="20" height="20">
+        </button>
+        <div id="show_com4" class="commentsBox">
+            <script>document.getElementById("show_com4").innerHTML = getSavedValueComments("show_com4");</script>
+        </div>
+    </div>
+    </div>
+ <p><br></p>
+
+
+    </body>
+    </html>

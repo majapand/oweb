@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="proektna.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src = "javascript.js"></script>
+
+
+<title>Proektna zadacha</title>
+</head>
+<body id="body1">
+  <p class="special">Maja Pandiloska</p>
+
+    <div class="navbar">
+        <a href="Contact.html">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">For You
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="anketa.html">Survey</a>
+              <a href="Quiz.html">Quiz</a>
+            </div>
+          </div>
+        <a href="BlogFinal1.html">Blog</a>
+        <a href="Galerija.html">Gallery</a>
+        <div class="dropdown">
+          <button class="dropbtn">Favourite
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Movies.html">Movies, TV shows, Music</a>
+            <a href="Food.html">Food</a>
+          </div>
+        </div>
+        <a href="Home.html">Home</a>
+      </div>
+    
+    </div>
+
+    <script type="text/javascript">
+        var name;
+       name=window.prompt("Enter your name");
+       document.writeln("<h1> Survey by " + name + " </h1>");
+       </script>
+
+    <p class="nodec">Submit this survey to improve this web site</p>
+    <form method="post" action="anketa.html">
+        <p>
+            <label>Name:
+                <input name="name" type="text" size="10" maxlength="20" onfocus="myFunction(this)">
+            </label>
+        </p>
+
+        <p>
+            <label>Surname:
+                <input name="name" type="text" size="10" maxlength="20" onfocus="myFunction(this)">
+            </label>
+        </p>
+        <label>Gender</label>
+        <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+        <p>
+            <label>Age</label>
+            <input type="number" name="Age" value="20">
+            </p>
+
+        <p>
+            <label>Date & time:
+               <input type = "datetime-local" /> 
+            </label>
+         </p>
+
+    <h2 id="surv">How do you like this web site?</h2> 
+    <input type="checkbox" >
+    <label for="vehicle1">Excellent</label><br>
+
+    <input type="checkbox">
+    <label for="vehicle1">Very good</label><br>
+
+    <input type="checkbox" >
+    <label for="vehicle1">Good</label><br>
+
+    <input type="checkbox" >
+    <label for="vehicle1">Awful</label><br>
+    <p>
+        <label for="points">Your grade (between 0 and 10):</label>
+        <input type="range" id="points" name="points" min="0" max="10">
+    </p>
+
+    <h2 id="surv">What do you like the most? </h2> 
+    <input type="checkbox" >
+    <label for="vehicle1">Design</label><br>
+
+    <input type="checkbox">
+    <label for="vehicle1">Colors</label><br>
+
+    <input type="checkbox" >
+    <label for="vehicle1">Favourite things</label><br>
+
+    <input type="checkbox" >
+    <label for="vehicle1">Gallery</label><br>
+
+    <input type="checkbox" >
+    <label for="vehicle1">Other</label><br>
+    <p>
+        <label><h2 id="surv">Note:</h2></label>
+        <p>
+        <textarea rows="5" cols="50" placeholder="Внеси коментар"></textarea>
+        </p>
+    </p>
+
+    <button onclick="myFunction1()">Send</button>
+        
+
+
+
+    </form>
+    <div class="icons">
+      <a href="https://www.facebook.com/maja.pandiloska/"><i class="fa fa-facebook"></i></a>
+      <a href="https://www.instagram.com/majapandiloska/"><i class="fa fa-instagram"></i></a>
+      <a href="https://twitter.com/pm9_pm10"><i class="fa fa-twitter"></i></a>
+      <a href="https://github.com/majapand/oweb"><i class="fa fa-github"></i></a>
+    </div>
+
+    <script>
+        function myFunction(x){
+            x.style.background="lightslategray";
+        }
+    </script>
+    
+</body>
+</html>
