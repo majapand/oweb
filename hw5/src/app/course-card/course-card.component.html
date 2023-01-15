@@ -1,0 +1,22 @@
+<div class="" *ngIf="crs" [ngClass]="classes()">
+
+    <div class="course-title">
+        {{index + ". " + crs.description}}
+    </div>
+
+    <img width="300" alt="Angular Logo"
+         src={{crs.iconUrl}}>
+
+    <div class="course-description">
+        {{crs.longDescription}}
+    </div>
+
+    <div [ngSwitch]="crs.lessonsCount">
+        <div class="lesson" *ngSwitchCase="10">Number of lessons: 10</div>
+        <div class="lesson" *ngSwitchCase="11">Number of lessons: 11</div>
+        <div class="lesson" *ngSwitchCase="8">Number of lessons: 8</div>
+        <div class="lesson" *ngSwitchDefault>Unable to detect number of lessons</div>
+    </div>
+    
+    <button (click)="onCrsViewed()">View Course</button>
+</div>
